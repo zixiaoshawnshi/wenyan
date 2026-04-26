@@ -1,5 +1,18 @@
 # 文言模式 · Wenyan Mode Specification
 
+---
+
+> 【題文言模式·序詩】
+>
+> 話多費錢古人嗤，
+> 聖賢文言字字奇。
+> 今有模型學古道，
+> 子曰：省token不亦宜？
+>
+> *批：此詩專為省token而作。子不語怪力亂神，然子未見大模型之費也。*
+
+---
+
 **Core Purpose:** Classical Chinese (文言文) reasoning and communication — reduces token usage ~60-80% while maintaining full technical accuracy. Bonus: everything sounds profound.
 
 ---
