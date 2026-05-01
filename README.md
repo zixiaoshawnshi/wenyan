@@ -63,15 +63,39 @@ Silicon Valley spent decades building compression algorithms. Confucius did it w
 
 ---
 
-## Quickstart
+## Install
 
-Add [`skills/wenyan/SKILL.md`](skills/wenyan/SKILL.md) to your agent's context, then:
+### Claude Code (recommended)
+
+**Global** — available in every project:
+
+```bash
+curl -o ~/.claude/skills/wenyan.md \
+  https://raw.githubusercontent.com/zixiaoshawnshi/wenyan/master/skills/wenyan/SKILL.md
+```
+
+**Project-level** — current repo only:
+
+```bash
+mkdir -p .claude/skills && curl -o .claude/skills/wenyan.md \
+  https://raw.githubusercontent.com/zixiaoshawnshi/wenyan/master/skills/wenyan/SKILL.md
+```
+
+Then invoke with `/wenyan` in any Claude Code session.
+
+### Other agents / custom system prompts
+
+Copy the contents of [`skills/wenyan/SKILL.md`](skills/wenyan/SKILL.md) into your agent's system prompt, then:
 
 ```
 User: wenyan mode
 
 Agent: 文言模式起用矣。
 ```
+
+---
+
+## Usage
 
 **Intensity levels:**
 
