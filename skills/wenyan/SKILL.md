@@ -180,6 +180,7 @@
 | pipeline | 管 | |
 | feature | 能 | |
 | user | 戶 | |
+| shitpost | 詩post | 詩也，非糞也 |
 
 ---
 
